@@ -1,0 +1,5 @@
+{
+  "doctype": "Server Script",
+  "script_type": "DocType Event",
+  "script": "doc.grand_total = doc.net_total + doc.total_taxes\nif doc.grand_total < 0:\n    frappe.throw('Tong tien khong duoc am')"
+}

@@ -1,0 +1,9 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "ntv-frappe",
+  "version": "1.0.0",
+  "description": "20 skill viết code Frappe/ERPNext v14–v16 đã lọc cho Thuần Việt: 10 skill cú pháp (DocType, controller, hooks, client script, server script, whitelisted, query builder, report, custom app), 5 skill lõi (API, database, quyền, workflow, thông báo), 3 skill vận hành (bench, backup, deploy), 2 skill gỡ lỗi & soi code.",
+  "author": { "name": "Nệm Thuần Việt" },
+  "keywords": ["frappe", "erpnext", "doctype", "bench", "python"],
+  "homepage": "https://github.com/nem-thuan-viet/thuan-viet-platform"
+}

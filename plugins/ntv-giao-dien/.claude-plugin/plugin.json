@@ -1,0 +1,9 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "ntv-giao-dien",
+  "version": "1.0.0",
+  "description": "Thiết kế giao diện web/mobile: gu thẩm mỹ có chủ đích (chống giao diện mặc định nhàm) cộng kho tra cứu 50+ phong cách, 161 bảng màu, 57 cặp font, 99 luật UX và 25 loại biểu đồ, tra bằng script Python chạy tại chỗ.",
+  "author": { "name": "Nệm Thuần Việt" },
+  "keywords": ["ui", "ux", "design", "mau-sac", "font"],
+  "homepage": "https://github.com/nem-thuan-viet/thuan-viet-platform"
+}

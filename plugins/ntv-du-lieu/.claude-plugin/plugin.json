@@ -1,0 +1,9 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "ntv-du-lieu",
+  "version": "1.0.0",
+  "description": "Bộ đồ nghề dữ liệu: viết & tối ưu SQL, thiết kế lược đồ và vẽ ERD, luật dùng PostgreSQL (index, kết nối, hiệu năng), và dựng server MCP từ hợp đồng OpenAPI.",
+  "author": { "name": "Nệm Thuần Việt" },
+  "keywords": ["sql", "postgres", "erd", "schema", "mcp"],
+  "homepage": "https://github.com/nem-thuan-viet/thuan-viet-platform"
+}

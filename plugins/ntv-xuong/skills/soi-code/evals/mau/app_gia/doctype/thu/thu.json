@@ -1,0 +1,8 @@
+{
+  "doctype": "DocType",
+  "name": "Thu Nghiem",
+  "fields": [
+    { "fieldname": "tên_khách", "fieldtype": "Data", "label": "Tên khách" },
+    { "fieldname": "ma_cu", "fieldtype": "Data", "label": "Mã cũ" }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "nem-thuan-viet",
+  "owner": {
+    "name": "Nệm Thuần Việt"
+  },
+  "metadata": {
+    "description": "Bộ đồ nghề Claude Code của Nệm Thuần Việt — skill viết code Frappe/ERPNext, xử lý dữ liệu/SQL, thiết kế giao diện, và nhịp làm việc của xưởng.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "ntv-xuong",
+      "source": "./plugins/ntv-xuong",
+      "description": "Nhịp làm việc của xưởng: cổng /soi-code trước khi gộp main, bộ lệnh /phien-dev · /thuc-thi · /kts · /nghiem-thu · /giam-sat, chuẩn ghi memory, kỷ luật code Karpathy, giao diện desk ERPNext.",
+      "category": "workflow",
+      "keywords": [
+        "ntv",
+        "quy-trinh",
+        "soi-code"
+      ]
+    },
+    {
+      "name": "ntv-frappe",
+      "source": "./plugins/ntv-frappe",
+      "description": "21 skill viết code Frappe/ERPNext v14–v16: sổ tay thực chiến (kiến trúc 5 tầng, Workspace v16, ~40 bẫy đã trả giá) + cú pháp (10) · lõi (5) · vận hành (3) · gỡ lỗi (2).",
+      "category": "development",
+      "keywords": [
+        "frappe",
+        "erpnext",
+        "doctype"
+      ]
+    },
+    {
+      "name": "ntv-du-lieu",
+      "source": "./plugins/ntv-du-lieu",
+      "description": "Viết & tối ưu SQL, thiết kế lược đồ + vẽ ERD, luật PostgreSQL, dựng server MCP từ OpenAPI.",
+      "category": "data",
+      "keywords": [
+        "sql",
+        "postgres",
+        "erd",
+        "mcp"
+      ]
+    },
+    {
+      "name": "ntv-giao-dien",
+      "source": "./plugins/ntv-giao-dien",
+      "description": "Kho tra thiết kế UI/UX: 161 bảng màu, 57 cặp font, 99 luật UX, 25 loại biểu đồ, tra bằng script Python chạy tại chỗ.",
+      "category": "design",
+      "keywords": [
+        "ui",
+        "ux",
+        "design"
+      ]
+    }
+  ]
+}

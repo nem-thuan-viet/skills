@@ -1,0 +1,5 @@
+{
+  "doctype": "Server Script",
+  "script_type": "DocType Event",
+  "script": "import json\nself.total = 0\ndoc.grand_total = self.total"
+}

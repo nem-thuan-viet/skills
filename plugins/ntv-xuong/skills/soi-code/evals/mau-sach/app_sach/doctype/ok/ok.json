@@ -1,0 +1,8 @@
+{
+  "doctype": "DocType",
+  "name": "Phieu Dung",
+  "fields": [
+    { "fieldname": "customer", "fieldtype": "Link", "options": "Customer", "label": "Khách hàng" },
+    { "fieldname": "delivery_status", "fieldtype": "Select", "options": "Chờ\nĐang giao\nXong", "label": "Trạng thái giao" }
+  ]
+}

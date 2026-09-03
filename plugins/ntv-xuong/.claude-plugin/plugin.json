@@ -1,0 +1,9 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "ntv-xuong",
+  "version": "1.0.0",
+  "description": "Nội quy & nhịp làm việc của xưởng Thuần Việt: cổng soi code trước khi gộp main, bộ lệnh /phien-dev · /thuc-thi · /kts · /nghiem-thu · /giam-sat, chuẩn ghi memory, kỷ luật code Karpathy, giao diện desk NTV và vận hành cổng MCP FAC.",
+  "author": { "name": "Nệm Thuần Việt" },
+  "keywords": ["ntv", "quy-trinh", "soi-code", "erpnext", "memory"],
+  "homepage": "https://github.com/nem-thuan-viet/thuan-viet-platform"
+}

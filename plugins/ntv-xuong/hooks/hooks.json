@@ -1,0 +1,18 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/hooks-handlers/skill_router.py\""
+          },
+          {
+            "type": "command",
+            "command": "echo \"[Luật skill] Với việc ĐÁNG KỂ (không phải việc vặt như đọc 1 file, git status, hỏi-đáp): trước khi hành động, nêu 1 dòng — 'Skill dùng: <tên> vì <lý do>' HOẶC 'Không có skill hợp → làm tay vì <lý do>'. Việc vặt: bỏ qua, làm luôn.\""
+          }
+        ]
+      }
+    ]
+  }
+}
