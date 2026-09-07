@@ -1,6 +1,6 @@
 # Bộ đồ nghề Claude Code — Nệm Thuần Việt
 
-Chợ plugin (marketplace) cho Claude Code: **4 gói · 30 skill · 5 lệnh gạch chéo**.
+Chợ plugin (marketplace) cho Claude Code: **5 gói · 31 skill · 5 lệnh gạch chéo**.
 Cài một lần, dùng được ở **mọi thư mục** trên máy.
 
 > Kho này **công khai** — tải được mà **không cần tài khoản GitHub**.
@@ -33,17 +33,18 @@ skill muốn dùng vào `.claude/skills/` trong dự án của mình.
 
 ---
 
-## 4 gói có gì
+## 5 gói có gì
 
 | Gói | Dùng khi nào | Bên trong |
 |---|---|---|
 | **`ntv-frappe`** | Viết code Frappe/ERPNext (v14–v16) | 21 skill: **sổ tay ERPNext thực chiến** · cú pháp DocType · hooks · report · quyền · API · sao lưu · gỡ lỗi |
 | **`ntv-du-lieu`** | Đụng tới dữ liệu | Viết & tối ưu SQL · vẽ ERD · luật PostgreSQL · dựng server MCP từ OpenAPI |
 | **`ntv-giao-dien`** | Thiết kế giao diện | Kho tra: 161 bảng màu · 57 cặp font · 99 luật UX · 25 loại biểu đồ (tra bằng script Python chạy tại chỗ) |
+| **`ntv-ban-lam-viec`** | Là CEO / trưởng phòng muốn có **bàn làm việc riêng trên ERP** (số của mảng mình mở ra là thấy) | 1 skill: quy trình bản vẽ → nguồn số → dựng từng khối bằng Workspace + Custom HTML Block, thanh trái trượt tới khối, khối Ghi chú & Việc, nhận diện thương hiệu, mẫu code và các bẫy Frappe 16 |
 | **`ntv-xuong`** | Nhịp làm việc chung | Cổng `/soi-code` soi code trước khi gộp · `/phien-dev` · `/thuc-thi` · `/kts` · `/nghiem-thu` · `/giam-sat` · chuẩn ghi memory · kỷ luật code Karpathy |
 
 **Chưa biết cài gì thì cài `ntv-xuong`** — nó là nội quy và nhịp làm việc, ai cũng dùng được.
-Ai code Frappe thì cài thêm `ntv-frappe`.
+Ai code Frappe thì cài thêm `ntv-frappe`. Trưởng phòng muốn có bàn làm việc riêng trên ERP thì cài `ntv-ban-lam-viec`.
 
 ---
 
