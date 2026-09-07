@@ -5,8 +5,8 @@
     "name": "Nệm Thuần Việt"
   },
   "metadata": {
-    "description": "Bộ đồ nghề Claude Code của Nệm Thuần Việt — skill viết code Frappe/ERPNext, xử lý dữ liệu/SQL, thiết kế giao diện, và nhịp làm việc của xưởng.",
-    "version": "1.0.0"
+    "description": "Bộ đồ nghề Claude Code của Nệm Thuần Việt — skill viết code Frappe/ERPNext, xử lý dữ liệu/SQL, thiết kế giao diện, và nhịp làm việc của xưởng, và dựng bàn làm việc cho trưởng phòng ngay trên ERP.",
+    "version": "1.1.0"
   },
   "plugins": [
     {
@@ -52,6 +52,18 @@
         "ui",
         "ux",
         "design"
+      ]
+    },
+    {
+      "name": "ntv-ban-lam-viec",
+      "source": "./plugins/ntv-ban-lam-viec",
+      "description": "Dựng bàn làm việc (dashboard cá nhân) cho CEO / trưởng phòng trên ERP Frappe 16 bằng Workspace + Custom HTML Block, không deploy: bản vẽ → nguồn số → từng khối → thanh trái → nhận diện, kèm khối Ghi chú & Việc và các bẫy đã trả giá.",
+      "category": "workflow",
+      "keywords": [
+        "erpnext",
+        "workspace",
+        "dashboard",
+        "ban-lam-viec"
       ]
     }
   ]

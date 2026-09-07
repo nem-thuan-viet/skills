@@ -1,0 +1,9 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "ntv-ban-lam-viec",
+  "version": "1.0.0",
+  "description": "Dựng bàn làm việc (dashboard cá nhân) cho CEO / trưởng phòng ngay trên ERP Frappe 16 bằng Workspace + Custom HTML Block, không deploy: bản vẽ trước, khảo sát nguồn số chỉ-đọc, dựng từng khối, thanh trái trượt tới khối, khối Ghi chú & Việc, nhận diện Nệm Thuần Việt / Việt Nhật, và các bẫy đã trả giá trên bàn Marketing & Kinh Doanh.",
+  "author": { "name": "Nệm Thuần Việt — Khối Sale & Marketing (Khánh Hưng)" },
+  "keywords": ["erpnext", "frappe", "workspace", "dashboard", "ban-lam-viec", "custom-html-block"],
+  "homepage": "https://github.com/nem-thuan-viet/thuan-viet-platform"
+}

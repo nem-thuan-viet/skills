@@ -1,0 +1,27 @@
+/* Style khối Ghi chú & Việc. Dán block-khung.css TRƯỚC, rồi nối phần này vào sau. */
+.kd-btn-primary{background:var(--kd-accent);color:#fff;border-color:var(--kd-accent)}.kd-btn-primary:hover{background:var(--kd-deep);border-color:var(--kd-deep);color:#fff}
+.gcv-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:12px}
+.gcv-col{background:var(--kd-tile);border-radius:10px;padding:10px 12px;min-width:0;display:flex;flex-direction:column}
+.gcv-col h3{font-size:13px;font-weight:700;color:var(--kd-deep);margin:0 0 8px;display:flex;align-items:center;gap:8px}
+.gcv-n{background:var(--kd-tile2);color:var(--kd-ink2);border-radius:10px;padding:0 7px;font-size:11px;font-weight:600;line-height:18px}
+.gcv-list{display:flex;flex-direction:column;gap:8px;max-height:360px;overflow:auto;flex:1}
+.gcv-note{display:grid;grid-template-columns:30px 1fr;gap:10px;align-items:start}
+.gcv-av{width:30px;height:30px;border-radius:50%;display:grid;place-items:center;color:#fff;font-weight:700;font-size:11px;background:hsl(var(--h) 45% 45%)}
+.gcv-meta{font-size:12px;color:var(--kd-ink3)}.gcv-meta b{color:var(--kd-ink);font-weight:600}
+.gcv-text{font-size:13px;line-height:1.45;white-space:pre-wrap;word-break:break-word}
+.gcv-todo{display:grid;grid-template-columns:22px 1fr;gap:10px;align-items:start;padding:7px 9px;background:#fff;border-radius:8px;border:1px solid var(--kd-line)}
+.gcv-todo.done .gcv-text{text-decoration:line-through;color:var(--kd-ink3)}
+.gcv-chk{position:relative;display:block;width:18px;height:18px;margin-top:1px}
+.gcv-chk input{position:absolute;opacity:0;width:0;height:0}
+.gcv-chk span{position:absolute;inset:0;border-radius:5px;border:2px solid var(--kd-ink3);cursor:pointer;background:#fff}
+.gcv-chk input:checked+span{background:#2e9e5b;border-color:#2e9e5b}
+.gcv-chk input:checked+span::after{content:"";position:absolute;left:5px;top:1px;width:4px;height:9px;border:solid #fff;border-width:0 2px 2px 0;transform:rotate(45deg)}
+.gcv-chk input:focus-visible+span{outline:2px solid var(--kd-accent);outline-offset:1px}
+.gcv-input{display:flex;gap:6px;margin-top:10px;align-items:stretch}
+.gcv-input textarea,.gcv-input input[type=text]{flex:1;font:inherit;font-size:13px;color:var(--kd-ink);background:#fff;border:1px dashed var(--kd-ink3);border-radius:8px;padding:7px 10px;resize:vertical;min-width:0}
+.gcv-input textarea:focus,.gcv-input input:focus{outline:2px solid var(--kd-accent);border-style:solid;border-color:var(--kd-accent)}
+.gcv-todo-input{flex-wrap:wrap}.gcv-todo-input select{max-width:180px}.gcv-todo-input input[type=date]{max-width:150px;background:#fff}
+.gcv-empty{color:var(--kd-ink3);font-size:12.5px;padding:6px 2px}
+.gcv-toast{position:fixed;left:50%;bottom:24px;transform:translate(-50%,20px);background:var(--kd-dark);color:#fff;padding:8px 14px;border-radius:8px;font-size:13px;opacity:0;pointer-events:none;transition:.25s;z-index:99}
+.gcv-toast.show{opacity:1;transform:translate(-50%,0)}.gcv-toast.bad{background:var(--kd-deep)}
+@media (max-width:900px){.gcv-grid{grid-template-columns:1fr}}

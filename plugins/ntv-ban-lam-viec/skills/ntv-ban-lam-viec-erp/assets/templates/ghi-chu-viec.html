@@ -1,0 +1,22 @@
+<!-- Khối "Ghi chú & Việc" · Custom HTML Block riêng, đặt cuối bàn. Kèm ghi-chu-viec.css + ghi-chu-viec.js.
+     Ghi chú = Comment, Việc = ToDo của ERP, gắn vào Workspace của bàn (đổi REF trong JS). id="ghi-chu" để thanh trái trượt tới. -->
+<div class="kd kd4" id="ghi-chu">
+  <div class="kd-head">
+    <div><div class="kd-title">Ghi chú &amp; Việc</div><div class="kd-sub" id="gcv-sum">Đang tải…</div></div>
+    <div class="kd-tools"><button class="kd-btn" type="button" data-act="focus-note">Ghi chú</button><button class="kd-btn kd-btn-primary" type="button" data-act="focus-todo">Giao việc</button><button class="kd-btn" type="button" data-act="reload" title="Tải lại">Tải lại</button></div>
+  </div>
+  <div class="gcv-grid">
+    <section class="gcv-col">
+      <h3>Ghi chú <span class="gcv-n" id="gcv-notes-count">0</span></h3>
+      <div class="gcv-list" id="gcv-notes"><div class="kd-skel"></div></div>
+      <div class="gcv-input"><textarea id="gcv-note-input" rows="2" placeholder="Viết ghi chú… (Enter để gửi, Shift+Enter xuống dòng)"></textarea><button type="button" class="kd-btn" data-act="add-note">Gửi</button></div>
+    </section>
+    <section class="gcv-col">
+      <h3>Việc <span class="gcv-n" id="gcv-todos-count">0</span></h3>
+      <div class="gcv-list" id="gcv-todos"><div class="kd-skel"></div></div>
+      <div class="gcv-input gcv-todo-input"><input id="gcv-todo-input" type="text" placeholder="Thêm việc… (Enter)"><select id="gcv-who" class="kd-select" aria-label="Giao cho"></select><input id="gcv-date" type="date" class="kd-select" aria-label="Hạn" title="Hạn hoàn thành"><button type="button" class="kd-btn" data-act="add-todo">Thêm</button></div>
+    </section>
+  </div>
+  <div class="gcv-toast" id="gcv-toast"></div>
+  <div class="kd-foot">Ghi chú lưu thành bình luận, việc lưu thành ToDo của ERP, đều gắn vào trang này · người được giao thấy việc trong "Việc của tôi" và nhận thông báo của ERP.</div>
+</div>

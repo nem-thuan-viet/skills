@@ -1,0 +1,36 @@
+<!-- Khung khối bàn làm việc · dán vào ô HTML của Custom HTML Block.
+     Mỗi <section> là một khối. JS chỉ render khối nào có id tương ứng → muốn thêm khối, thêm section rồi thêm hàm render.
+     Đổi chữ trong tiêu đề cho đúng phòng; giữ id để JS tìm được. -->
+<div class="kd">
+  <div class="kd-head">
+    <div>
+      <div class="kd-title">Tổng quan · [Tên phòng / vai trò]</div>
+      <div class="kd-sub" id="kd-sub">Đang tải…</div>
+    </div>
+    <div class="kd-tools">
+      <select id="kd-month" class="kd-select" aria-label="Chọn tháng"></select>
+      <button id="kd-reload" class="kd-btn" type="button" title="Tải lại số">Tải lại</button>
+    </div>
+  </div>
+
+  <!-- Khối 1: dải thẻ số (4–5 thẻ) -->
+  <section class="kd-sec" id="sec-thang">
+    <h3>Tháng này <span class="kd-hint">bấm thẻ để mở chi tiết</span></h3>
+    <div class="kd-tiles c5" id="tiles-thang"><div class="kd-skel"></div><div class="kd-skel"></div><div class="kd-skel"></div><div class="kd-skel"></div><div class="kd-skel"></div></div>
+  </section>
+
+  <!-- Khối 2: bảng theo đơn vị (phòng / kho / team) -->
+  <section class="kd-sec" id="sec-bang">
+    <h3>Theo đơn vị <span class="kd-hint">cùng số này khi xem ở chiều khác phải khớp</span></h3>
+    <div class="kd-tblwrap" id="tbl-bang"><div class="kd-skel tall"></div></div>
+  </section>
+
+  <!-- Khối 3: việc cần xem (chip đếm) -->
+  <section class="kd-sec" id="sec-xem">
+    <h3>Cần anh/chị xem <span class="kd-hint">rê chuột để xem danh sách · bấm để mở chỗ xử lý</span></h3>
+    <div class="kd-chips" id="chips"><div class="kd-skel"></div><div class="kd-skel"></div><div class="kd-skel"></div></div>
+  </section>
+
+  <!-- Ghi chú định nghĩa số: luôn có, người xem sau phải biết số từ đâu -->
+  <div class="kd-foot" id="kd-foot"></div>
+</div>
